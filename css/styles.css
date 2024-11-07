@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.gallery {
+    max-width: 1440px;
+    padding: 100px 156px;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+    margin: auto;
+}
+
+.gallery-item {
+    width: calc((100% - 48px) / 3);
+}
